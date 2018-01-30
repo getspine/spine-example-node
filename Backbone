@@ -1,0 +1,14 @@
+---
+clusters:
+  - example:
+      image: spine/example
+      ports:
+        - port: 3000
+
+balancers:
+  - example:
+      synapses:
+        - port: 80
+          remote_port: 3000
+          protocol: http
+          resource: example

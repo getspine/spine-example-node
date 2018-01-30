@@ -1,0 +1,26 @@
+{
+  "name": "spine-example-node",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Steve Salevan <steve@spi.ne>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getspine/spine-example-node"
+  },
+  "keywords": [
+    "node",
+    "spine",
+    "express"
+  ],
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  }
+}
